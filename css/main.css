@@ -1,0 +1,642 @@
+/* 
+  skyApp  bootstrap sass theme
+  Author: Raihan Rifat
+*/
+/*
+ Base - Base styles,variables,mixins ect
+*/
+/* Font color */
+/* Background color*/
+/* showcasse area*/
+/* Mixin */
+/* line 1, ../scss/base/_normalize.scss */
+h1, h2, h3, h4, h5 {
+  margin-top: 0px;
+}
+
+/* line 5, ../scss/base/_normalize.scss */
+.page-header, .page-header-extra {
+  margin-top: 30px;
+  font-size: 31px;
+}
+
+/* line 9, ../scss/base/_normalize.scss */
+.page-header-extra {
+  color: white;
+}
+
+/* line 15, ../scss/base/_normalize.scss */
+.no-pad-top {
+  padding-top: 0px;
+}
+
+/* line 18, ../scss/base/_normalize.scss */
+.extra-pad {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 23, ../scss/base/_normalize.scss */
+.top-inner {
+  padding: 90px 0 30px 0;
+}
+
+/* img size*/
+/* line 28, ../scss/base/_normalize.scss */
+.img-xsm {
+  width: 100px;
+}
+
+/* line 29, ../scss/base/_normalize.scss */
+.img-sm {
+  width: 200px;
+}
+
+/* line 30, ../scss/base/_normalize.scss */
+.img-lg {
+  width: 400px;
+}
+
+/* line 31, ../scss/base/_normalize.scss */
+.img-xlg {
+  width: 700px;
+}
+
+/* line 1, ../scss/base/_base.scss */
+body {
+  font-family: "Gegoe UI", "Gegoe WP", "Gegoe Regular", sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #666666;
+}
+
+/* line 8, ../scss/base/_base.scss */
+a {
+  color: #00aff0;
+}
+
+/* line 12, ../scss/base/_base.scss */
+ul li {
+  list-style: none;
+}
+
+/* line 16, ../scss/base/_base.scss */
+input, textarea, button {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+
+/* line 20, ../scss/base/_base.scss */
+img.device {
+  width: 100%;
+}
+
+/* line 23, ../scss/base/_base.scss */
+img.device-small {
+  width: 70%;
+  margin-bottom: -40px;
+}
+
+/* line 28, ../scss/base/_base.scss */
+.quote {
+  color: white;
+}
+
+/* line 31, ../scss/base/_base.scss */
+.extra-color {
+  color: #00aff0;
+}
+
+/* line 34, ../scss/base/_base.scss */
+.lead-p {
+  color: white;
+}
+
+/*
+ Modules - Modules individual site components
+*/
+/* Block */
+/* line 3, ../scss/modules/_blocks.scss */
+.block, .block-primary, .block-secondary, .block-light, .block-dark {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+/* line 8, ../scss/modules/_blocks.scss */
+.block h3, .block-primary h3, .block-secondary h3, .block-light h3, .block-dark h3 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+/* line 13, ../scss/modules/_blocks.scss */
+.block-primary {
+  background: #00aff0;
+}
+/* line 42, ../scss/base/_mixins.scss */
+.block-primary else {
+  color: #ffffff;
+}
+
+/* line 18, ../scss/modules/_blocks.scss */
+.block-secondary {
+  background: #7fba00;
+}
+/* line 42, ../scss/base/_mixins.scss */
+.block-secondary else {
+  color: #ffffff;
+}
+
+/* line 23, ../scss/modules/_blocks.scss */
+.block-light {
+  background: #e4eef2;
+  color: #666666;
+}
+/* line 42, ../scss/base/_mixins.scss */
+.block-light else {
+  color: #ffffff;
+}
+
+/* line 28, ../scss/modules/_blocks.scss */
+.block-dark {
+  background: #2b5464;
+}
+/* line 42, ../scss/base/_mixins.scss */
+.block-dark else {
+  color: #ffffff;
+}
+
+/* line 33, ../scss/modules/_blocks.scss */
+.block-center {
+  text-align: center!important;
+}
+
+/* line 37, ../scss/modules/_blocks.scss */
+.block-image img {
+  width: 100%;
+}
+
+/* line 40, ../scss/modules/_blocks.scss */
+.block-border {
+  border: 1px solid #cccccc;
+}
+
+/* line 45, ../scss/modules/_blocks.scss */
+.block-primary-head h3 {
+  padding: 15px 15px 15px 10px;
+  background: #00aff0;
+  margin: 0px;
+  font-size: 18px;
+}
+/* line 42, ../scss/base/_mixins.scss */
+.block-primary-head h3 else {
+  color: #ffffff;
+}
+/* line 51, ../scss/modules/_blocks.scss */
+.block-primary-head .block-content {
+  border: 1px solid #00aff0;
+  padding: 10px;
+}
+
+/* line 59, ../scss/modules/_blocks.scss */
+.block-icon h3 {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 63, ../scss/modules/_blocks.scss */
+.block-icon .icon {
+  float: left;
+  width: 20%;
+  margin-top: 10px;
+}
+/* line 68, ../scss/modules/_blocks.scss */
+.block-icon .icon-content {
+  float: left;
+  width: 70%;
+}
+
+/* button*/
+/* carousel */
+/* line 3, ../scss/modules/_components.scss */
+.carousel {
+  margin-bottom: 30px;
+}
+
+/* line 6, ../scss/modules/_components.scss */
+.carousel img {
+  padding: 3px;
+  border: 1px solid #cccccc;
+}
+
+/* line 11, ../scss/modules/_components.scss */
+.tab-pane {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+
+/* line 16, ../scss/modules/_components.scss */
+.tab-primary .tab-pane, .nav-tabs > li.active > a, .tab-primary .nav-tabs > li.active > a:hover, .tab-primary .nav-tabs > li.active > a:focus {
+  background: #00aff0;
+}
+/* line 42, ../scss/base/_mixins.scss */
+.tab-primary .tab-pane else, .nav-tabs > li.active > a else, .tab-primary .nav-tabs > li.active > a:hover else, .tab-primary .nav-tabs > li.active > a:focus else {
+  color: #ffffff;
+}
+
+/* line 20, ../scss/modules/_components.scss */
+.tab-light .tab-pane, .nav-tabs > li.active > a, .tab-light .nav-tabs > li.active > a:hover, .tab-light .nav-tabs > li.active > a:focus {
+  background: #e4eef2;
+  color: #666666;
+}
+/* line 42, ../scss/base/_mixins.scss */
+.tab-light .tab-pane else, .nav-tabs > li.active > a else, .tab-light .nav-tabs > li.active > a:hover else, .tab-light .nav-tabs > li.active > a:focus else {
+  color: #ffffff;
+}
+
+/* line 24, ../scss/modules/_components.scss */
+.panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a {
+  color: #00aff0 !important;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Section showcase*/
+/* line 3, ../scss/modules/_sections.scss */
+section {
+  padding: 30px 0;
+}
+
+/* line 7, ../scss/modules/_sections.scss */
+.showcase {
+  height: 400px;
+  background: url("../img/showcase.jpg") no-repeat top center;
+}
+/* line 11, ../scss/modules/_sections.scss */
+.showcase .showcase-content {
+  padding: 110px 15px;
+  text-align: center;
+}
+/* line 16, ../scss/modules/_sections.scss */
+.showcase h1 {
+  color: #00aff0;
+}
+
+/* line 22, ../scss/modules/_sections.scss */
+.section-priamry, .section-primary-a, .section-primary-b {
+  background: #00aff0;
+}
+/* line 42, ../scss/base/_mixins.scss */
+.section-priamry else, .section-primary-a else, .section-primary-b else {
+  color: #ffffff;
+}
+
+/* line 25, ../scss/modules/_sections.scss */
+.section-primary-a {
+  border-top: 4px solid #7fba00;
+}
+
+/* line 29, ../scss/modules/_sections.scss */
+.section-primary-b {
+  border-bottom: 4px solid #7fba00;
+}
+
+/* line 33, ../scss/modules/_sections.scss */
+.section-secondary {
+  background: #7fba00;
+}
+/* line 42, ../scss/base/_mixins.scss */
+.section-secondary else {
+  color: #ffffff;
+}
+
+/* line 36, ../scss/modules/_sections.scss */
+.section-light {
+  background: #e4eef2;
+  color: #666666;
+}
+/* line 42, ../scss/base/_mixins.scss */
+.section-light else {
+  color: #ffffff;
+}
+
+/* line 39, ../scss/modules/_sections.scss */
+.section-dark {
+  background: #2b5464;
+}
+/* line 42, ../scss/base/_mixins.scss */
+.section-dark else {
+  color: #ffffff;
+}
+
+/* Lists */
+/* line 3, ../scss/modules/_typography.scss */
+.list, .list-feature {
+  margin-bottom: 30px;
+}
+
+/* line 6, ../scss/modules/_typography.scss */
+.list-feature {
+  margin: 0px;
+  padding: 0px;
+  width: 80%;
+}
+/* line 12, ../scss/modules/_typography.scss */
+.list-feature li {
+  line-height: 3.6em;
+  border-bottom: 1px solid #cccccc;
+}
+/* line 16, ../scss/modules/_typography.scss */
+.list-feature li:last-child {
+  border: 0px;
+}
+/* line 19, ../scss/modules/_typography.scss */
+.list-feature span {
+  vertical-align: middle;
+  padding-top: 9px;
+  font-size: 55%;
+  color: #666666;
+}
+/* line 25, ../scss/modules/_typography.scss */
+.list-feature i {
+  margin-top: -9px;
+  margin-right: 5px;
+}
+
+/* line 30, ../scss/modules/_typography.scss */
+.list-comments {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 34, ../scss/modules/_typography.scss */
+.list-comments li {
+  padding: 10px 0px 5px 0px;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* line 38, ../scss/modules/_typography.scss */
+.list-comments li:last-child {
+  border: 0px;
+}
+
+/* line 41, ../scss/modules/_typography.scss */
+.list-comments img {
+  width: 100px;
+}
+
+/* Icon size*/
+/* line 46, ../scss/modules/_typography.scss */
+.fa-2 {
+  font-size: 18px;
+}
+
+/* line 49, ../scss/modules/_typography.scss */
+.fa-3 {
+  font-size: 24px;
+}
+
+/* line 52, ../scss/modules/_typography.scss */
+.fa-4 {
+  font-size: 27px;
+}
+
+/* line 55, ../scss/modules/_typography.scss */
+.fa-5 {
+  font-size: 35px;
+}
+
+/* line 58, ../scss/modules/_typography.scss */
+.fa-6 {
+  font-size: 40px;
+}
+
+/* line 62, ../scss/modules/_typography.scss */
+.fa-primary {
+  color: #00aff0;
+}
+
+/* line 66, ../scss/modules/_typography.scss */
+.fa-border {
+  border: 1px solid #00aff0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 13px 15px;
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+/* heading */
+/* line 75, ../scss/modules/_typography.scss */
+.heading-primary, .heading-primary-a {
+  color: #00aff0;
+}
+
+/* line 78, ../scss/modules/_typography.scss */
+.heading-primary-a {
+  border-bottom: 2px solid #00aff0;
+}
+
+/* line 82, ../scss/modules/_typography.scss */
+.heading-secondary, .heading-secondary-a {
+  color: #7fba00;
+}
+
+/* line 86, ../scss/modules/_typography.scss */
+.heading-secondary-a {
+  border-bottom: 2px solid #7fba00;
+}
+
+/* line 90, ../scss/modules/_typography.scss */
+.heading-light, .heading-light-a {
+  color: #e4eef2;
+}
+
+/* line 94, ../scss/modules/_typography.scss */
+.heading-light-a {
+  border-bottom: 2px solid #e4eef2;
+}
+
+/* line 98, ../scss/modules/_typography.scss */
+.heading-dark, .heading-dark-a {
+  color: #2b5464;
+}
+
+/* line 101, ../scss/modules/_typography.scss */
+.heading-dark-a {
+  border-bottom: 2px solid #2b5464;
+}
+
+/* emphasis*/
+/* line 108, ../scss/modules/_typography.scss */
+.em-primary {
+  color: #00aff0;
+}
+
+/* line 111, ../scss/modules/_typography.scss */
+.em-secondary {
+  color: #7fba00;
+}
+
+/* line 114, ../scss/modules/_typography.scss */
+.em-light {
+  color: #e4eef2;
+}
+
+/* line 117, ../scss/modules/_typography.scss */
+.em-dark {
+  color: #2b5464;
+}
+
+/* search box*/
+/* line 3, ../scss/modules/_forms.scss */
+.search {
+  width: 100%;
+}
+/* line 6, ../scss/modules/_forms.scss */
+.search h3 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+/* line 11, ../scss/modules/_forms.scss */
+.search input[type="search"] {
+  border: 0px;
+  height: 50px;
+  width: 80%;
+  border: 2px solid #00aff0;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+/* line 21, ../scss/modules/_forms.scss */
+.search button {
+  border: 0px;
+  background: none;
+  padding: 0px;
+  vertical-align: top;
+  margin-left: -4px;
+}
+
+/*
+ Layouts - Layouts page layouts styles
+*/
+/* Footer */
+/* line 3, ../scss/layouts/_footer.scss */
+.footer-main {
+  background: #2b5464;
+  border-top: 5px solid #7fba00;
+  min-height: 200px;
+  padding: 30px 0;
+  z-index: 100;
+}
+/* line 42, ../scss/base/_mixins.scss */
+.footer-main else {
+  color: #ffffff;
+}
+/* line 10, ../scss/layouts/_footer.scss */
+.footer-main a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* line 15, ../scss/layouts/_footer.scss */
+.footer-main ul {
+  margin: 0px;
+  padding: 0px;
+}
+/* line 19, ../scss/layouts/_footer.scss */
+.footer-main li {
+  line-height: 1.8em;
+  list-style: none;
+}
+
+/* Navbar */
+/* line 3, ../scss/layouts/_nav.scss */
+.navbar {
+  width: 90%;
+  margin: auto;
+  border-right: 1px solid #e7e7e7;
+  border-left: 1px solid #e7e7e7;
+  border-color: #e7e7e7;
+  min-height: 60px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+/* line 11, ../scss/layouts/_nav.scss */
+.navbar a {
+  color: #00aff0 !important;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  padding-bottom: 24px!important;
+  padding-top: 20px!important;
+}
+
+/* line 21, ../scss/layouts/_nav.scss */
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: #00aff0 !important;
+  color: white!important;
+}
+
+/* line 25, ../scss/layouts/_nav.scss */
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #00aff0 !important;
+  color: white!important;
+}
+
+/* Blog post*/
+/* line 3, ../scss/layouts/_blog.scss */
+.blog-post {
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  padding: 15px;
+}
+/* line 7, ../scss/layouts/_blog.scss */
+.blog-post h2.page-header, .blog-post h2.page-header-extra {
+  margin-top: 5px!important;
+}
+
+/* line 12, ../scss/layouts/_blog.scss */
+.blog-featured {
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 17, ../scss/layouts/_blog.scss */
+.post-meta {
+  background: #f3f3f3;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+}
+
+/* Media Query*/
+@media (max-width: 768px) {
+  /* line 4, ../scss/layouts/_mobile.scss */
+  .search {
+    display: inline-block;
+    text-align: center;
+  }
+
+  /* line 8, ../scss/layouts/_mobile.scss */
+  .device {
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+
+  /* line 14, ../scss/layouts/_mobile.scss */
+  .device-small {
+    margin-bottom: 20px !important;
+  }
+
+  /* line 20, ../scss/layouts/_mobile.scss */
+  .footer-main ul {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  /* line 25, ../scss/layouts/_mobile.scss */
+  .footer-main h4 {
+    text-align: center;
+  }
+}
